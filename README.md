@@ -23,12 +23,11 @@ CIDR:10.0.0.0/18
 #setup steps
 
 1. Create two VPCs with **non-overlapping CIDR blocks**
-2. Create two VPCs with **non-overlapping CIDR blocks**
-3. Attach Internet Gateways to public subnets
-4. Create and attach NAT Gateways for private subnets
-5. Create a *VPC Peering connection* between both VPCs
-6. Update route tables to route traffic between VPCs
-7. Launch EC2 instances and test using `ping`  
+2. Attach Internet Gateways to public subnets
+3. Create and attach NAT Gateways for private subnets
+4. Create a *VPC Peering connection* between both VPCs
+5. Update route tables to route traffic between VPCs
+6. Launch EC2 instances and test using `ping`  
 
 #Testing
 
